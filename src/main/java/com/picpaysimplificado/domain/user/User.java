@@ -20,7 +20,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "tb_user")
 @NoArgsConstructor
 @AllArgsConstructor
-
 @EqualsAndHashCode(of = "id")
 public class User {
 	@Id
